@@ -72,6 +72,11 @@ function validar(nombre, apellido, edad, prestamo) {
       })
       return false;
     } else{
+      Swal.fire(
+        'Felicidades',
+        'Usted completo el formulario correctamente',
+        'success'
+      )
       return true;
     }
   }
