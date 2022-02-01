@@ -127,13 +127,13 @@ h3 {
   padding: 2rem;
   margin-top: 3rem;
   width: 100%;
-  height: 600px;
+  height: auto;
 }
 
 .nosotros p {
   text-align: left;
   width: 250px;
-  margin-left: 1rem;
+  margin: auto;
   font-size: 1.8rem;
   padding-top: 2rem;
 }
@@ -155,5 +155,23 @@ footer {
 footer a {
   padding: 2rem;
   margin: auto;
+}
+
+.recibo {
+  text-align: center;
+  width: 800px;
+  height: 30%;
+  background-color: #5151E1;
+  border-radius: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.recibo p {
+  color: white;
+}
+
+.recibo h2 {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
