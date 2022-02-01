@@ -117,7 +117,7 @@ function validar(nombre, apellido, edad, prestamo) {
     e.preventDefault();
     $("main").append(`<div class="nosotros" style="display: none" id="nosotros1">
                       <p id="texto">Somos Prestapronto, una empresa prestamista dedicada a que puedas lograr tus objetivos de la forma mas rapida y eficiente,con nuestro servicio cumplir tus sueños nunca fue tan facil</p>
-                      <img src="img/fotoNosotros.jpg" alt="" style="width: 400px;">
+                      <img src="imagenes/fotoNosotros.jpg" alt="" style="width: 400px;">
                       </div>`);
     $("#nosotros1").delay(2000).slideDown("slow").delay(4000).slideUp(1000);
   });
